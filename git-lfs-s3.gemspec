@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'git-lfs-s3/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "git-lfs-s3"
+  gem.name          = "lsst-git-lfs-s3"
   gem.version       = GitLfsS3::VERSION
   gem.authors       = ["Ryan LeFevre", "J. Matt Peterson"]
   gem.email         = ["meltingice8917@gmail.com", "jmatt@lsst.org"]
